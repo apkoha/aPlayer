@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>audio-player</title>
+  <link rel="icon" href="./assets/svg/pause-favicon.png" type="image/png">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="player">
+    <h1 class="visually-hidden">audio-player</h1>
+    <div class="player__wrapper">
+      <div class="img__wrapper">
+        <img class="track__img" src="" alt="" width="500" height="500">
+      </div>
+      <div class="control__wrapper">
+        <div class="control__button">
+          <button class="button button__play"></button>
+          <div class="track__info">
+            <h2 class="track__title"></h2>
+            <p class="track__subtitle"></p>
+          </div>
+          <div class="button__wrapper">
+            <button class="button button__forward"></button>
+            <button class="button button__back"></button>
+          </div>
+        </div>
+        <div class="progress__wrapper">
+          <p class="duration">5:46</p>
+          <div class="timeline">
+            <div class="progress"></div>
+          </div>
+          <p class="time">0:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="https://github.com/apkoha">My GitHub</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="https://rs.school/courses/javascript-ru">
+              <img class="footer__link-img" src="./assets/svg/rs_school_js.svg" width="86" height="32" alt="RS School logo">
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="https://www.youtube.com/channel/UCMmjVkM1KEAkBOvbTxLcCwA">My YouTube</a>
+          </li>
+          <li class="footer__list-item">2024</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<script src="./script.js"></script>
+</body>
+</html>
